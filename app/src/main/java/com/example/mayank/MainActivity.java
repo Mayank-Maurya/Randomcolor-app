@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         color=findViewById(R.id.changeit);
         tv=findViewById(R.id.textView2);
+        int len=20;
         color.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
